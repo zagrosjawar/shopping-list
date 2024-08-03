@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Clean and modern font */
+    background-color: #f4f4f4; /* Light grey background for soft appearance */
+    padding: 20px;
+    color: #333; /* Dark grey text for readability */
+}
+
+/* Styling the heading */
+h1 {
+    color: #0275d8; /* Blue color for the heading to make it stand out */
+    text-align: center;
+    margin-bottom: 20px; /* Space between heading and input field */
+}
+
+/* Styling for the input field and button */
+input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+    width: 70%; /* Takes up most of the line */
+    border: 2px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Larger text for better readability */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c; /* Green background for a friendly action color */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicates that the button is clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #449d44; /* Darker green on hover for visual feedback */
+}
+
+/* Styling for the list of items */
+ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* White background for each item */
+    border: 1px solid #ddd; /* Light grey border around each item */
+    width: 84%; /* Takes up most of the line */
+    padding: 10px;
+    margin-top: 5px; /* Space between items */
+    cursor: pointer; /* Indicates you can interact with each item */
+}
+
+
+/* Styling the remove button inside list items */
+li button {
+    padding: 5px 10px;
+    background-color: #d9534f; /* Red background for remove button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 50px; /* Space from text to button */
+    cursor: pointer; /* Indicates the button is clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+li button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+
+.purchased {
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+/*
+
+The CSS file contains a single style rule for list items with purchased class
+that have been toggled (Task1.js addItem() and togglePurchased(event) ). 
+It uses text decoration (line-through) and a color change (grey) to visually indicate it is "done" or "bought".
+*/
+
+
+/* GitHub Copilot generated CSS style rules and values are checked and modified by me 
+
+
+End of Task1.css
+*/
